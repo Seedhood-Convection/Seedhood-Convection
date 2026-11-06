@@ -540,3 +540,27 @@ footer {
 footer p {
     color: #a0a5af;
 }
+/* Tactical Apparel Background */
+.product-grid article.product-tactical {
+    background-image:
+        linear-gradient(
+            rgba(16, 17, 20, 0.35),
+            rgba(16, 17, 20, 0.85)
+        ),
+        url("images/ammanmockup.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #3a3d45;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-grid article.product-tactical span,
+.product-grid article.product-tactical h3,
+.product-grid article.product-tactical p {
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
