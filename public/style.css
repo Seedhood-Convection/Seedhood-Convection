@@ -430,3 +430,113 @@ footer p {
     object-fit: cover;
     object-position: center;
 }
+/* =================================
+   SEEDHOOD PREMIUM DARK THEME
+================================= */
+
+:root {
+    --navy: #122c4f;
+    --blue: #3a7eff;
+    --grey: #e5e5e5;
+    --light: #1b1d22;
+    --dark: #ffffff;
+}
+
+/* Main background */
+body {
+    background: #101114;
+    color: #ffffff;
+}
+
+/* Navigation */
+.navbar {
+    background: #101114;
+    border-bottom: 1px solid #292c33;
+}
+
+.logo {
+    color: #ffffff;
+}
+
+nav a {
+    color: #d0d3da;
+}
+
+/* Hero section */
+.hero {
+    background: #15171c;
+}
+
+.hero h1 {
+    color: #ffffff;
+}
+
+.intro {
+    color: #b8bbc2;
+}
+
+.location {
+    color: #a0a5af;
+}
+
+/* Buttons */
+.secondary {
+    color: #ffffff;
+    border-color: #626873;
+}
+
+/* Product section */
+.section {
+    background: #101114;
+}
+
+.section h2,
+.about h2,
+.contact h2 {
+    color: #ffffff;
+}
+
+.product-grid article {
+    background: #1b1d22;
+    border-color: #30343c;
+}
+
+.product-grid h3 {
+    color: #ffffff;
+}
+
+.product-grid p {
+    color: #b8bbc2;
+}
+
+/* About section */
+.about {
+    background: #181a20;
+}
+
+.about > p:last-child {
+    color: #b8bbc2;
+}
+
+/* Contact section */
+.contact {
+    background: #15171c;
+}
+
+.contact > p:not(.eyebrow):not(.contact-email) {
+    color: #b8bbc2;
+}
+
+.contact-email {
+    color: #b8bbc2;
+}
+
+/* Footer */
+footer {
+    background: #101114;
+    border-top: 1px solid #292c33;
+}
+
+footer p {
+    color: #a0a5af;
+}
